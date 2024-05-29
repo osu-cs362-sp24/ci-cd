@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-require("@testing-library/jest-dom/extend-expect")
+require("@testing-library/jest-dom")
 const domTesting = require("@testing-library/dom")
 const userEvent = require("@testing-library/user-event").default
 
